@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+float angulo1, angulo2, angulo3;
+printf("Valor do angulo 1: ");
+scanf("%f", &angulo1);
+printf("Valor do angulo 2: ");
+scanf("%f", &angulo2);
+
+angulo3 = 180 - (angulo1 + angulo2);
+printf("Angulo 3 = %.3f", angulo3);
+return 0;
+}
